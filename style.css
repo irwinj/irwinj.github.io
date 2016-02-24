@@ -1,0 +1,167 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700|Coda);
+
+h1, h2, h3{
+	font-size: 5em;
+	font-family: arial,helvetica;
+	color: #fff;
+	margin:0;
+	padding:0;
+}
+
+h1 {
+	font-size: 6em;
+}
+
+h2 {
+	font-size: 4em;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+ul {
+	list-style: none;
+	float: left;
+	padding-left: 2em;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	padding-right: 3em;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-size: 2em;
+	font-family: 'Roboto', 'Coda', serif;
+}
+
+.menu {
+	text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+
+form {
+	width: 40%;
+	padding-left: 30%;
+	margin-top: 5%;
+}
+
+label {
+	font-size: 1.5em;
+}
+
+.intro p{
+	color: #fff;
+	font-size: 1.5em;
+}
+
+#section2 h1 {
+	color: black;
+	text-shadow: -1.5px 0 white, 0 1.5px white, 1.5px 0 white, 0 -1.5px white;
+}
+
+.slide p {
+	margin: 0;
+	font-size: 2em;
+}
+
+.slide a {
+	margin-top: 1%;
+}
+
+/* Backgrounds will cover all the section
+* --------------------------------------- */
+#section0,
+#section1,
+#section2,
+#slide1,
+#slide2,
+#slide3{
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#section0 {
+	background-image: url(images/skyline.jpg);
+	opacity: .95;
+	text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+
+#slide1 {
+	background-image: url(images/insightful.png);
+}
+
+#slide1 h1, #slide1 p {
+	text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+
+#slide1 a {
+	color: black;
+}
+
+#slide2 {
+	background-image: url(images/fishing.jpg);
+}
+
+#slide2 h1, #slide2 p {
+	text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+
+#slide2 a {
+	color: black;
+}
+
+#slide3 {
+	background-image: url(images/calendar.png);
+}
+
+#slide3 h1, #slide3 p {
+	text-shadow: -1.5px 0 white, 0 1.5px white, 1.5px 0 white, 0 -1.5px white;
+	color: black;
+}
+
+#slide3 a {
+	color: black;
+}
+
+#slide4 {
+	background-image: url(images/worldmap.jpg);
+}
+
+#slide4 h1, #slide4 p {
+	text-shadow: -1.5px 0 white, 0 1.5px white, 1.5px 0 white, 0 -1.5px white;
+	color: black;
+}
+
+#slide4 a {
+	color: black;
+}
+
+/* Centered texts in each section
+* --------------------------------------- */
+.section{
+	text-align:center;
+}
+
+/* Fixed header and footer.
+* --------------------------------------- */
+#header {
+	position:fixed;
+	height: 50px;
+	display:block;
+	width: 100%;
+	/*background: #333;*/
+	z-index:9;
+	text-align:center;
+	color: #f2f2f2;
+	padding: 20px 0 0 0;
+}
+
+#header{
+	top:0px;
+}
+
+
