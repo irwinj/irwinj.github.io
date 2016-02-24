@@ -140,6 +140,12 @@ label {
 	color: black;
 }
 
+#section2 {
+	background-image: url(images/mexico.jpg);
+	opacity: .95;
+	text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+
 /* Centered texts in each section
 * --------------------------------------- */
 .section{
@@ -164,4 +170,45 @@ label {
 	top:0px;
 }
 
+.connect-tiles {
+	position: relative;
+	margin-top: 2%;
+	display: inline-block;
+	width: 33%;
+}
+
+#connect-left img {
+	height: 200px;
+	border-radius: 150px;
+}
+
+#connect-right a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#connect-right img {
+	height: 50px;
+	margin-right: 3%;
+	padding-bottom: 4%;
+}
+
+#connect-right span {
+	font-size: 1.5vw;
+}
+
+#connect-links {
+	text-align: left;
+	padding-left: 30%;
+}
+
+.connect-link {
+	margin-bottom: 5%;
+}
+
+#connect-linkedin a:hover #linkedin { color: #2591F7; }
+
+#connect-github a:hover #github { color: #2591F7; }
+
+#connect-ga a:hover #ga { color: #2591F7; }
 
