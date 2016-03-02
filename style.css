@@ -1,23 +1,10 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,700|Coda);
-
-h1, h2, h3{
-	font-size: 5em;
-	font-family: arial,helvetica;
-	color: #fff;
-	margin:0;
-	padding:0;
+body {
+	font-family: "Calibri", sans-serif;
+	color: white;
 }
 
-h1 {
-	font-size: 6em;
-}
-
-h2 {
-	font-size: 4em;
-}
-
-h3 {
-	font-size: 2em;
+.intro {
+	text-shadow: -.25px 0 black, 0 .25px black, .25px 0 black, 0 -.25px black;
 }
 
 ul {
@@ -36,11 +23,6 @@ a {
 	text-decoration: none;
 	color: white;
 	font-size: 2em;
-	font-family: 'Roboto', 'Coda', serif;
-}
-
-.menu {
-	text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
 }
 
 form {
@@ -51,16 +33,6 @@ form {
 
 label {
 	font-size: 1.5em;
-}
-
-.intro p{
-	color: #fff;
-	font-size: 1.5em;
-}
-
-#section2 h1 {
-	color: black;
-	text-shadow: -1.5px 0 white, 0 1.5px white, 1.5px 0 white, 0 -1.5px white;
 }
 
 .slide p {
@@ -79,71 +51,38 @@ label {
 #section2,
 #slide1,
 #slide2,
-#slide3{
+#slide3,
+#slide4 {
 	background-size: cover;
 	background-repeat: no-repeat;
+	color: white;
 }
 
 #section0 {
-	background-image: url(images/skyline.jpg);
+	background-image: url(images/skyline.png);
 	opacity: .95;
-	text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
 }
 
 #slide1 {
 	background-image: url(images/insightful.png);
 }
 
-#slide1 h1, #slide1 p {
-	text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
-}
-
-#slide1 a {
-	color: black;
-}
-
 #slide2 {
 	background-image: url(images/fishing.jpg);
-}
-
-#slide2 h1, #slide2 p {
-	text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
-}
-
-#slide2 a {
-	color: black;
+	text-shadow: -.25px 0 black, 0 .25px black, .25px 0 black, 0 -.25px black;
 }
 
 #slide3 {
 	background-image: url(images/calendar.png);
 }
 
-#slide3 h1, #slide3 p {
-	text-shadow: -1.5px 0 white, 0 1.5px white, 1.5px 0 white, 0 -1.5px white;
-	color: black;
-}
-
-#slide3 a {
-	color: black;
-}
-
 #slide4 {
 	background-image: url(images/worldmap.jpg);
-}
-
-#slide4 h1, #slide4 p {
-	text-shadow: -1.5px 0 white, 0 1.5px white, 1.5px 0 white, 0 -1.5px white;
-	color: black;
-}
-
-#slide4 a {
-	color: black;
 }
 
 #section2 {
 	background-image: url(images/mexico.jpg);
 	opacity: .95;
-	text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
 }
 
 /* Centered texts in each section
@@ -188,13 +127,13 @@ label {
 }
 
 #connect-right img {
-	height: 50px;
+	height: 25px;
 	margin-right: 3%;
 	padding-bottom: 4%;
 }
 
 #connect-right span {
-	font-size: 1.5vw;
+	font-size: 2.0vw;
 }
 
 #connect-links {
@@ -212,3 +151,4 @@ label {
 
 #connect-ga a:hover #ga { color: #2591F7; }
 
+#connect-resume a:hover #resume { color: #2591F7; }
