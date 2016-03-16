@@ -118,6 +118,10 @@ label {
 	padding: 20px 0 0 0;
 }
 
+.contact-info {
+	align: left;
+}
+
 #header{
 	top:0px;
 }
